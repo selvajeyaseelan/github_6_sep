@@ -21,8 +21,26 @@ open terminal of vs code and type
 17. git push -u origin main
 
 18. Once you begin to change anything in your files, again the source control is triggered and the changes gets tracked
-19. Right click on the file name and say open changes. THis shows the changes to the file since the last commit. This is the meaning of purpose control
-20. 
+19. Right click on the file name and say open changes. THis shows the changes to the file since the last commit. This is the meaning of purpose control. Notice next to file name you see an M which means modified, hover over it
+20. git status (shows files are modified, in red)
+21. git add .
+22. git status (green)
+23. git commit -m "added more updates to the github.md file" (source control disappears since changes frozen)
+24. git status (your branch is up to date with origin/main)
+25. git push -u origin main (or source control and sync changes up arrow)
+26. again make changes to the file and then see changes with colors.
+
+Light Red / Soft Red (Left side): Marks an entire line that was modified or removed compared to the last commit.
+
+Darker Red (Left side, line 24–25): Highlights the exact characters or words that were changed or deleted within that line.
+
+Light Green / Soft Green (Right side): Marks entire new lines that have been added to your file.
+
+Darker Green (Right side, line 24): Highlights the exact characters or words that were newly inserted or edited within an existing line.
+
+The striped diagonal area on the left simply fills empty space to keep unchanged lines aligned across both panes.
+
+27. 
 
 
 
