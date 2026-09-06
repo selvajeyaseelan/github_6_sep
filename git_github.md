@@ -52,8 +52,8 @@ The striped diagonal area on the left simply fills empty space to keep unchanged
 36. git branch (still shows main)
 37. git switch ( now shows test branch in green, also notice at the bottom left, the branch name is shown)
 38. Go to github select the test branch and see the newly added lines, select 3 dots and see full file
-39. Go to test branch in git hub you will see this branch is 1 or 2 commits ahead of main. Click on the 1 commit ahead of main. then you can merge the test to main branch (click on merge pull request, confirm merge)
-
+39. Go to test branch in git hub you will see this branch is 1 or 2 commits ahead of main. Click on the 1 commit ahead of main. then you can merge the test to main branch (click on create pull request,murge pull request, confirm mearge )
+40. new line
 
 
 
